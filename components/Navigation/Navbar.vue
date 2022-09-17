@@ -71,7 +71,7 @@ const isOpen = ref(false);
               >Products</a
             >
             <nuxt-link
-              to="/blog"
+              to="/blog?page=1"
               class="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
               >Blog</nuxt-link
             >
