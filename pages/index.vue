@@ -28,6 +28,7 @@ const testimonials = ref([
 </script>
 
 <template>
+  <main>
   <section class="bg-primary text-white">
     <div class="px-4 py-16 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:gap-16 lg:grid-cols-2">
@@ -246,7 +247,7 @@ const testimonials = ref([
       <div
         class="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 sm:gap-16"
       >
-        <SharedCard
+        <SharedTestimonialsCard
           v-for="review in testimonials"
           :key="review.id"
           :writer-name="review.writerName"
@@ -291,4 +292,5 @@ const testimonials = ref([
       </div>
     </section>
   </div>
+</main>
 </template>
