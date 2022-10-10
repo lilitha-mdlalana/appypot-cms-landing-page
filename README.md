@@ -1,42 +1,19 @@
-# Nuxt 3 Minimal Starter
+# AppyPot CMS landing page
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+A self-platform landing page for small business owners to grow their business. The landing page includes a blog feature that utilises a headless CMS as it's backend.
 
-## Setup
+### Project requirements
 
-Make sure to install the dependencies:
+- [x]  Uses a static site generator
+- [x]  Has a home page
+- [x]  Has an 'articles' or 'blog' page
+- [x]  Individual page for every article
 
-```bash
-# yarn
-yarn install
+Extra features
+- [x] Integrate a CMS 
+- [ ]  Create a portfolio and portfolio items along with the blog
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+### Tech used
+- Nuxt
+- ButterCMS
+ - Git
